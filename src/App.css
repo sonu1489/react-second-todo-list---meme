@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@400;600&family=Poppins:ital,wght@0,500;1,400;1,700&family=Roboto:ital,wght@0,100;1,300&display=swap") */
+
+body {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+header > img {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-header {
+  background-color: rgb(18, 18, 119);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.header-h1 {
+  font-size: 80px;
+  font-weight: 300px;
+  color: aliceblue;
+}
+input {
+  margin-top: 30px;
+  padding: 5px 30px;
+  font-size: large;
+}
+button {
+  font-size: large;
+  padding: 5px 2px;
+  background-color: rgb(18, 18, 119);
+  color: rgb(226, 217, 217);
+}
+.meme > img {
+  width: 50%;
+  margin-top: 10px;
+}
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+.meme > h1 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: Impact, sans-serif;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.meme > .top {
+  top: 0;
+}
+.meme > .bottom {
+  bottom: 0;
+}
